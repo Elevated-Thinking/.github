@@ -13,14 +13,6 @@
   Design-led strategy and AI-enabled product work for complex environments.
 </p>
 
-<p align="center">
-  <a href="https://elevatedthinking.co">Website</a>
-  &nbsp;·&nbsp;
-  <a href="https://elevatedthinking.co/about/">About</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:hello@elevatedthinking.co">hello@elevatedthinking.co</a>
-</p>
-
 ---
 
 Elevated helps government, defense, and enterprise teams build products, workflows, and services that hold up in high-stakes, regulated environments—from research and strategy through delivery.
