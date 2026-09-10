@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://elevatedthinking.co">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/elevated-logo-dark.svg">
-      <img src="./assets/elevated-logo-light.svg" alt="Elevated" width="360">
+      <source media="(prefers-color-scheme: dark)" srcset="https://elevatedthinking.co/brand/elevated-logo-dark.svg">
+      <img src="https://elevatedthinking.co/brand/elevated-logo-light.svg" alt="Elevated" width="360">
     </picture>
   </a>
 </p>
@@ -28,4 +28,4 @@ Elevated's work on Polaris, a platform for U.S. Space Force mission teams, has b
 ## Get in touch
 
 - **General inquiries:** [hello@elevatedthinking.co](mailto:hello@elevatedthinking.co?subject=Hello) or [book a time](https://calendar.app.google/ShyxHfNAutZC3Dg7A)
-- **Security:** report a potential vulnerability to [hello@elevatedthinking.co](mailto:hello@elevatedthinking.co?subject=Security%20report) with "Security report" in the subject line
+- **Security:** see our [security policy](../SECURITY.md) for how to report a vulnerability
