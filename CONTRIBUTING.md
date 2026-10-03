@@ -1,6 +1,6 @@
 # Contributing
 
-This guide applies to every repository in the Elevated Thinking organization; an individual repository may add its own contribution or `README` instructions, and those take precedence where they differ.
+This guide applies to every repository in the Elevated Thinking organization; an individual repository may add its own `CONTRIBUTING.md` or `README.md` instructions, and those take precedence where they differ.
 
 ## Ground rules
 
@@ -19,7 +19,7 @@ Search open and closed issues first; if a matching one exists, add to it rather 
 
 ## Development workflow
 
-`main` is always releasable. Every change reaches it through a short-lived branch and a reviewed pull request.
+`main` must always be releasable and ready to deploy. Every change reaches it through a short-lived branch and a reviewed pull request.
 
 1. **Fork or branch.** Organization members branch directly; outside contributors fork.
 2. **Branch from `main`** with a short, descriptive name: `feat/contact-form-validation`, `fix/nav-mobile-overflow`, `docs/contributing`.
@@ -77,7 +77,11 @@ Describe the problem, the approach, and anything you decided against, and link t
 
 ## Releases
 
-Follow the owning repository’s release and deployment instructions. A merge does not prove deployment or acceptance. Record required deployment and verification evidence before completing a delivery issue.
+Keep `main` releasable and ready to deploy at all times. Release when the accumulated, validated changes are ready to ship.
+
+Version numbers follow [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`. Use annotated release tags named `vMAJOR.MINOR.PATCH` (for example, `v1.2.3`); prereleases use a suffix such as `v1.3.0-rc.1`. Tag the release commit on `main`, and keep released tags immutable.
+
+Keep version bumps and changelog edits in a focused release PR. Follow the owning repository’s runbook for build, deployment, rollback, and verification commands. A merge or release tag does not prove deployment or acceptance; record the required evidence before completing a delivery issue.
 
 ## Licensing and attribution
 
