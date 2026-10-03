@@ -81,7 +81,7 @@ Keep `main` releasable and ready to deploy at all times. Release when the accumu
 
 Version numbers follow [Semantic Versioning](https://semver.org/): `MAJOR.MINOR.PATCH`. Use annotated release tags named `vMAJOR.MINOR.PATCH` (for example, `v1.2.3`); prereleases use a suffix such as `v1.3.0-rc.1`. Tag the release commit on `main`, and keep released tags immutable.
 
-Keep version bumps and changelog edits in a focused release PR. Follow the owning repository’s runbook for build, deployment, rollback, and verification commands. A merge or release tag does not prove deployment or acceptance; record the required evidence before completing a delivery issue.
+Update the version when releasing, follow the repository’s deployment instructions, and verify the deployed change before marking delivery work complete.
 
 ## Licensing and attribution
 
