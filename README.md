@@ -1,3 +1,3 @@
 # .github
 
-Org-wide GitHub configuration for Elevated Thinking — profile content, community health files, and other settings that apply across every repository in this organization.
+Public organization profile and shared contribution and security policies for Elevated Thinking repositories.
