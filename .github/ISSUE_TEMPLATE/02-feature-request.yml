@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest a new feature or improvement.
+type: Feature
+labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: Tell us what you would like to do and how an improvement would help. Please leave out personal or confidential information.
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do?
+      description: Describe the problem or need. Who would benefit from this improvement?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What improvement would help?
+      description: Describe your idea. You do not need to explain how to build it.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a good result look like?
+      description: Optional. Give an example of how you would use it.
+  - type: textarea
+    id: context
+    attributes:
+      label: Alternatives, examples or screenshots
+      description: Optional. Include anything else that helps explain your request.
